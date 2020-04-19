@@ -1,0 +1,181 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/befcb88/
+<C-j>	init.vim	/^inoremap <silent><expr> <C-j> pumvisible() ? "\\<C-n>" : "\\<C-j>"$/;"	m
+<C-k>	init.vim	/^inoremap <silent><expr> <C-k> pumvisible() ? "\\<C-p>" : "\\<C-k>"$/;"	m
+<C-n>	init.vim	/^        nnoremap <silent> <C-n> :call NerdTreeToggleAndFind()<CR>$/;"	m
+<C-p>	init.vim	/^nnoremap <silent> <C-p> :<C-u>CocList files<cr>$/;"	m
+<Down>	init.vim	/^inoremap <Down> <NOP>$/;"	m
+<Down>	init.vim	/^noremap <Down> <NOP>$/;"	m
+<Leader>/	init.vim	/^map <Leader>\/ <Plug>(easymotion-sn)$/;"	m
+<Leader>C	init.vim	/^        nnoremap <silent> <Leader>C :call fzf#run({$/;"	m
+<Leader>N	init.vim	/^map <Leader>N <Plug>(easymotion-prev)$/;"	m
+<Leader>[	init.vim	/^nnoremap <silent> <Leader>[ :<C-u>CocList --normal locationlist<cr>$/;"	m
+<Leader>]	init.vim	/^nnoremap <silent> <Leader>] :<C-u>CocList --normal quickfix<cr>$/;"	m
+<Leader>b	init.vim	/^nnoremap <silent> <Leader>b :<C-u>CocList buffers<cr>$/;"	m
+<Leader>ch	init.vim	/^noremap <silent> <Leader>ch :noh<CR>$/;"	m
+<Leader>f	init.vim	/^map <Leader>f <Plug>(easymotion-bd-w)$/;"	m
+<Leader>g	init.vim	/^nnoremap <silent> <Leader>g :<C-u>CocList grep<cr>$/;"	m
+<Leader>h	init.vim	/^noremap <silent> <Leader>h <C-W><C-H>$/;"	m
+<Leader>j	init.vim	/^noremap <silent> <Leader>j <C-W><C-J>$/;"	m
+<Leader>k	init.vim	/^noremap <silent> <Leader>k <C-W><C-K>$/;"	m
+<Leader>l	init.vim	/^noremap <silent> <Leader>l <C-W><C-L>$/;"	m
+<Leader>n	init.vim	/^map <Leader>n <Plug>(easymotion-next)$/;"	m
+<Leader>nt	init.vim	/^nnoremap <silent> <Leader>nt :call NumberToggle()<cr>$/;"	m
+<Leader>o	init.vim	/^nnoremap <silent> <Leader>o :<C-u>CocList outline<cr>$/;"	m
+<Leader>p	init.vim	/^noremap <silent> <Leader>p "0p$/;"	m
+<Leader>q	init.vim	/^nnoremap <silent> <Leader>q :q<CR>$/;"	m
+<Leader>re	init.vim	/^noremap <silent> <Leader>re :reg<CR>$/;"	m
+<Leader>rl	init.vim	/^nnoremap <silent> <Leader>rl :<C-u>CocListResume<cr>$/;"	m
+<Leader>s	init.vim	/^nmap <Leader>s <Plug>(easymotion-overwin-f2)$/;"	m
+<Leader>tb	init.vim	/^nnoremap <silent> <Leader>tb :TagbarToggle<CR>$/;"	m
+<Leader>tt	init.vim	/^noremap <silent> <Leader>tt :tabnew<CR>$/;"	m
+<Leader>w	init.vim	/^nnoremap <silent> <Leader>w :w<CR>$/;"	m
+<Leader>x	init.vim	/^nnoremap <silent> <Leader>x :x<CR>$/;"	m
+<Leader>y	init.vim	/^noremap <silent> <Leader>y :let @0=@*<CR>$/;"	m
+<Left>	init.vim	/^inoremap <Left> <NOP>$/;"	m
+<Left>	init.vim	/^noremap <Left> <NOP>$/;"	m
+<Right>	init.vim	/^inoremap <Right> <NOP>$/;"	m
+<Right>	init.vim	/^noremap <Right> <NOP>$/;"	m
+<S-TAB>	init.vim	/^        inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<TAB>	init.vim	/^        inoremap <silent><expr> <TAB>$/;"	m
+<TAB>	init.vim	/^imap <silent><expr> <TAB>$/;"	m
+<Up>	init.vim	/^inoremap <Up> <NOP>$/;"	m
+<Up>	init.vim	/^noremap <Up> <NOP>$/;"	m
+<c-space>	init.vim	/^inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<c-x><c-f>	init.vim	/^        imap <c-x><c-f> <plug>(fzf-complete-path)$/;"	m
+<c-x><c-j>	init.vim	/^        imap <c-x><c-j> <plug>(fzf-complete-file-ag)$/;"	m
+<c-x><c-k>	init.vim	/^        imap <c-x><c-k> <plug>(fzf-complete-word)$/;"	m
+<c-x><c-l>	init.vim	/^        imap <c-x><c-l> <plug>(fzf-complete-line)$/;"	m
+<cr>	init.vim	/^            imap <expr> <cr> pumvisible() ? "\\<C-y>" : "\\<C-g>u\\<CR>"$/;"	m
+<cr>	init.vim	/^            inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\\<C-y>" : "\\<C-g>u\\<C/;"	m
+<cr>	init.vim	/^        inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>*	init.vim	/^        nmap <leader>* *<c-o>:%s\/\/\/gn<cr>$/;"	m
+<leader><tab>	init.vim	/^        nmap <leader><tab> <plug>(fzf-maps-n)$/;"	m
+<leader><tab>	init.vim	/^        omap <leader><tab> <plug>(fzf-maps-o)$/;"	m
+<leader><tab>	init.vim	/^        xmap <leader><tab> <plug>(fzf-maps-x)$/;"	m
+<leader>b	init.vim	/^    nmap <leader>b :Bdelete<cr>$/;"	m
+<leader>e	init.vim	/^        nmap <silent> <leader>e :FZF<cr>$/;"	m
+<leader>f	init.vim	/^        nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	init.vim	/^        nmap <leader>f :CocCommand prettier.formatFile<cr>$/;"	m
+<leader>f	init.vim	/^        xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>gb	init.vim	/^        nmap <silent><leader>gb :Gblame<cr>$/;"	m
+<leader>ge	init.vim	/^        nmap <leader>ge :Gedit<cr>$/;"	m
+<leader>gr	init.vim	/^        nmap <silent><leader>gr :Gread<cr>$/;"	m
+<leader>gs	init.vim	/^        nmap <silent> <leader>gs :Gstatus<cr>$/;"	m
+<leader>k	init.vim	/^        nmap <silent> <leader>k :CocCommand explorer<cr>$/;"	m
+<leader>m	init.vim	/^        nmap <leader>m :MarkedOpen!<cr>$/;"	m
+<leader>mq	init.vim	/^        nmap <leader>mq :MarkedQuit<cr>$/;"	m
+<leader>r	init.vim	/^        nmap <silent> <leader>r :Buffers<cr>$/;"	m
+<leader>rn	init.vim	/^        nmap <silent> <leader>rn <Plug>(coc-rename)$/;"	m
+<leader>rn	init.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<leader>s	init.vim	/^        nmap <silent> <leader>s :GFiles?<cr>$/;"	m
+<leader>st	init.vim	/^        nmap <leader>st :Startify<cr>$/;"	m
+<leader>t	init.vim	/^            nmap <silent> <leader>t :FZF<cr>$/;"	m
+<leader>t	init.vim	/^            nmap <silent> <leader>t :GitFiles --cached --others --exclude-standard<cr>$/;"	m
+<leader>u	init.vim	/^noremap <silent> <leader>u :UndotreeToggle<CR>$/;"	m
+Blackify	init.vim	/^fun! Blackify()$/;"	f
+FZFMru	init.vim	/^        command! FZFMru call fzf#run({$/;"	c
+Files	init.vim	/^        command! -bang -nargs=? -complete=dir Files$/;"	c
+Find	init.vim	/^        command! -bang -nargs=* Find call fzf#vim#grep($/;"	c
+GitFiles	init.vim	/^        command! -bang -nargs=? -complete=dir GitFiles$/;"	c
+K	init.vim	/^        nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+K	init.vim	/^nnoremap K :grep! "\\b<C-R><C-W>\\b"<CR>$/;"	m
+NERDSpaceDelims	init.vim	/^let NERDSpaceDelims=1$/;"	v
+NERDTreeDirArrowCollapsible	init.vim	/^        let NERDTreeDirArrowCollapsible = "\\u00a0" " make arrows invisible$/;"	v
+NERDTreeDirArrowExpandable	init.vim	/^        let NERDTreeDirArrowExpandable = "\\u00a0" " make arrows invisible$/;"	v
+NERDTreeNodeDelimiter	init.vim	/^        let NERDTreeNodeDelimiter = "\\u263a" " smiley face$/;"	v
+NERDTreeShowHidden	init.vim	/^        let NERDTreeShowHidden=1$/;"	v
+NerdTreeToggleAndFind	init.vim	/^        function NerdTreeToggleAndFind()$/;"	f
+NumberToggle	init.vim	/^function! NumberToggle()$/;"	f
+OR	init.vim	/^        command! -nargs=0 OR :call CocAction('runCommand', 'editor.action.organizeImport')$/;"	c
+Prettier	init.vim	/^        command! -nargs=0 Prettier :CocCommand prettier.formatFile$/;"	c
+Screenshot	README.md	/^## Screenshot$/;"	s
+[c	init.vim	/^        nmap <silent> [c <Plug>(coc-diagnostic-prev)$/;"	m
+[c	init.vim	/^nmap <silent> [c <Plug>(coc-diagnostic-prev)$/;"	m
+[g	init.vim	/^        nmap [g <Plug>(coc-git-prevchunk)$/;"	m
+]c	init.vim	/^        nmap <silent> ]c <Plug>(coc-diagnostic-next)$/;"	m
+]c	init.vim	/^nmap <silent> ]c <Plug>(coc-diagnostic-next)$/;"	m
+]g	init.vim	/^        nmap ]g <Plug>(coc-git-nextchunk)$/;"	m
+base16colorspace	init.vim	/^        let base16colorspace=256$/;"	v
+bind	.tmux.conf	/^bind = select-layout tiled$/;"	k
+configgroup	init.vim	/^    augroup configgroup$/;"	a
+delimitMate_expand_cr	init.vim	/^let delimitMate_expand_cr = 1$/;"	v
+delimitMate_expand_space	init.vim	/^let delimitMate_expand_space = 1$/;"	v
+g:DevIconsEnableFolderExtensionPatternMatching	init.vim	/^        let g:DevIconsEnableFolderExtensionPatternMatching = 1$/;"	v
+g:DevIconsEnableFoldersOpenClose	init.vim	/^        let g:DevIconsEnableFoldersOpenClose = 1$/;"	v
+g:EasyMotion_do_mapping	init.vim	/^let g:EasyMotion_do_mapping = 0 "Disable default mappings$/;"	v
+g:EasyMotion_smartcase	init.vim	/^let g:EasyMotion_smartcase = 1$/;"	v
+g:EasyMotion_startofline	init.vim	/^let g:EasyMotion_startofline = 0 "keep cursor column when JK motion$/;"	v
+g:NERDTreeIndicatorMapCustom	init.vim	/^        let g:NERDTreeIndicatorMapCustom = {$/;"	v
+g:UltiSnipsExpandTrigger	init.vim	/^        let g:UltiSnipsExpandTrigger="<C-l>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	init.vim	/^        let g:UltiSnipsJumpBackwardTrigger="<C-k>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	init.vim	/^        let g:UltiSnipsJumpForwardTrigger="<C-j>"$/;"	v
+g:WebDevIconsOS	init.vim	/^        let g:WebDevIconsOS = 'Darwin'$/;"	v
+g:WebDevIconsUnicodeDecorateFolderNodes	init.vim	/^        let g:WebDevIconsUnicodeDecorateFolderNodes = 1$/;"	v
+g:airline#extensions#ale#enabled	init.vim	/^let g:airline#extensions#ale#enabled = 1$/;"	v
+g:airline_section_c	init.vim	/^let g:airline_section_c = '%{winnr()}  %<%f%m %#__accent_red#%{airline#util#wrap(airline#part/;"	v
+g:airline_section_error	init.vim	/^let g:airline_section_error = '%{airline#util#wrap(airline#extensions#coc#get_error(),0)}'$/;"	v
+g:airline_section_warning	init.vim	/^let g:airline_section_warning = '%{airline#util#wrap(airline#extensions#coc#get_warning(),0)}'$/;"	v
+g:ale_echo_msg_error_str	init.vim	/^let g:ale_echo_msg_error_str = 'E'$/;"	v
+g:ale_echo_msg_format	init.vim	/^let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'$/;"	v
+g:ale_echo_msg_warning_str	init.vim	/^let g:ale_echo_msg_warning_str = 'W'$/;"	v
+g:ale_fix_on_save	init.vim	/^let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	init.vim	/^let g:ale_fixers = {$/;"	v
+g:ale_linters	init.vim	/^let g:ale_linters = {$/;"	v
+g:ale_sign_error	init.vim	/^let g:ale_sign_error = '✖'$/;"	v
+g:ale_sign_info	init.vim	/^let g:ale_sign_info = 'ℹ'$/;"	v
+g:ale_sign_warning	init.vim	/^let g:ale_sign_warning = '⚠'$/;"	v
+g:black_fast	init.vim	/^let g:black_fast = 1$/;"	v
+g:black_linelength	init.vim	/^let g:black_linelength = 88$/;"	v
+g:black_virtualenv	init.vim	/^let g:black_virtualenv = "~\/.pyenv\/versions\/3.7.6"$/;"	v
+g:coc_global_extensions	init.vim	/^        let g:coc_global_extensions = [$/;"	v
+g:coc_snippet_next	init.vim	/^let g:coc_snippet_next = '<tab>'$/;"	v
+g:endwise_no_mappings	init.vim	/^let g:endwise_no_mappings = 1$/;"	v
+g:fzf_layout	init.vim	/^        let g:fzf_layout = { 'down': '~25%' }$/;"	v
+g:gitgutter_map_keys	init.vim	/^let g:gitgutter_map_keys = 0$/;"	v
+g:lightline	init.vim	/^        let g:lightline = {$/;"	v
+g:markdown_fenced_languages	init.vim	/^        let g:markdown_fenced_languages = [ 'tsx=typescript.tsx' ]$/;"	v
+g:multi_cursor_exit_from_insert_mode	init.vim	/^let g:multi_cursor_exit_from_insert_mode = 0$/;"	v
+g:multi_cursor_next_key	init.vim	/^let g:multi_cursor_next_key='<C-s>'$/;"	v
+g:multi_cursor_prev_key	init.vim	/^let g:multi_cursor_prev_key='<C-p>'$/;"	v
+g:multi_cursor_quit_key	init.vim	/^let g:multi_cursor_quit_key='<Esc>'$/;"	v
+g:multi_cursor_skip_key	init.vim	/^let g:multi_cursor_skip_key='<C-x>'$/;"	v
+g:multi_cursor_use_default_mapping	init.vim	/^let g:multi_cursor_use_default_mapping = 0$/;"	v
+g:startify_bookmarks	init.vim	/^        let g:startify_bookmarks = [$/;"	v
+g:startify_change_to_dir	init.vim	/^        let g:startify_change_to_dir = 0$/;"	v
+g:startify_commands	init.vim	/^        let g:startify_commands = [$/;"	v
+g:startify_custom_header	init.vim	/^        let g:startify_custom_header = [ ]$/;"	v
+g:startify_files_number	init.vim	/^        let g:startify_files_number = 5$/;"	v
+g:startify_lists	init.vim	/^        let g:startify_lists = [$/;"	v
+g:startify_relative_path	init.vim	/^        let g:startify_relative_path = 1$/;"	v
+g:startify_use_env	init.vim	/^        let g:startify_use_env = 1$/;"	v
+g:vim_json_syntax_conceal	init.vim	/^        let g:vim_json_syntax_conceal = 0$/;"	v
+g:vim_jsx_pretty_highlight_close_tag	init.vim	/^		let g:vim_jsx_pretty_highlight_close_tag = 1$/;"	v
+gd	init.vim	/^        nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gd	init.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gh	init.vim	/^        nmap <silent> gh <Plug>(coc-doHover)$/;"	m
+gi	init.vim	/^        nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gi	init.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	init.vim	/^        nmap <silent> gr <Plug>(coc-references)$/;"	m
+gr	init.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gs	init.vim	/^        nmap gs <Plug>(coc-git-chunkinfo)$/;"	m
+gu	init.vim	/^        nmap gu :CocCommand git.chunkUndo<cr>$/;"	m
+gy	init.vim	/^        nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+gy	init.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+is_vim	.tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+mapleader	init.vim	/^let mapleader=" "$/;"	v
+my local dotfiles combined some dotfile on Github	README.md	/^# my local dotfiles combined some dotfile on Github$/;"	c
+nerdtree	init.vim	/^        augroup nerdtree$/;"	a
+s:check_back_space	init.vim	/^        function! s:check_back_space() abort$/;"	f
+s:check_back_space	init.vim	/^function! s:check_back_space() abort$/;"	f
+s:printable_ascii	init.vim	/^let s:printable_ascii = map(range(65, 122), 'nr2char(v:val)')$/;"	v
+s:show_documentation	init.vim	/^        function! s:show_documentation()$/;"	f
+s:show_documentation	init.vim	/^function! s:show_documentation()$/;"	f
+t	.tmux.conf	/^bind -r C-h select-window -t :-$/;"	k
+t	.tmux.conf	/^bind -r C-l select-window -t :+$/;"	k
+unbind	.tmux.conf	/^unbind =$/;"	k
