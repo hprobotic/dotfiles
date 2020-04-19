@@ -6,4 +6,4 @@
 Thanks <3 !!!
 
 ## Screenshot
-[Demo](!https://i.imgur.com/tcvYBOq.png)
+![Demo](https://i.imgur.com/tcvYBOq.png)
